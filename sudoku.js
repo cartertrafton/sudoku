@@ -3,24 +3,20 @@
 //9 August 2018
 
 //  To-Do
-//  - Create chart
-//  - Create fill-in on click ability
+//  - Create grid : visual represenation of an array
+//  - Fill in array with single digit number, on clicking
 //  - Create solving algortihm lol
 
 function setup() {
-  createCanvas(1000, 1000);
-  fill(255);
-  stroke(102);
+  createCanvas(600, 600);
 }
 function draw() {
-  background(0);
-  for (var y = 20; y <= height-20; y += 100) {
-    for (var x = 20; x <= width-20; x += 100) {
-      ellipse(x, y, 10, 10);
-      // Draw a line to the center of the display
-      line(x, y, mouseX, mouseY);
-    }
+  background(204);
+  line(20, 20, 220, 100);
+  if (keyIsPressed) {
+    line(220, 20, 20, 100);
   }
+
 }
 
 function sudokuSolve(){
