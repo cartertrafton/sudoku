@@ -2,7 +2,7 @@
 >My attempt at learning p5.js
 
 ## Background
-I do a lot of sudokus and I wanted a program that would solve them for me to check my work for when I'm stuck.
+I do a lot of sudokus and I wanted to learn the [p5.js](https://p5js.org/) library. It is a great visual programming tool that makes it incredibly easy to create visual applications.
 
 ## Solving Algorithm
 
